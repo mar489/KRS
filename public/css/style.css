@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "Proxima Nova Rg";
+    src: url(../resourse/ProximaNova-Regular.ttf);
+}
+body {
+    font-family: "Proxima Nova Rg", serif;
+}
+.header-top > p {
+    text-align: center;
+}
+.header-info{
+    color: #979490;
+    text-align: right;
+}
+.main-logo{
+    height: 42px;
+}
+.icon {
+    width: 23px;
+}
+a.nav-title:hover, a.nav-title:focus {
+    color: #16af16 !important;
+}
+.nav-btn {
+    border: none;
+    background: none;
+    color: black;
+    border-radius: 0;
+}
+.nav-btn:focus, .nav-btn:active {
+    outline: none;
+    box-shadow: none;
+}
+.search-field {
+    display: inline !important;
+}
+.footer {
+    background: #0e294b;
+}
+.col-title {
+    font-size: 16px;
+    color: white !important;
+    padding: 15px 0;
+    display: block;
+}
+.col-content {
+    display: block;
+    width: 203px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #979490 !important;
+    padding: 5px 0;
+    box-sizing: content-box;
+}
+a:hover {
+    text-decoration: none;
+}
+.subscribe-box {
+    border: 1px solid #333333;
+    width: 100%;
+}
+.subscribe-email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #777777;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+}
+.subscribe-email:focus {
+    outline: none;
+}
+.subscribe-agreement{
+    color: #777777;
+}
+.subscribe-agreement > span {
+    font-size: 12px;
+}
+.subscribe-agreement > img {
+    filter: invert(100%);
+}
+.subscribe-btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #777777;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px auto;
+}
+.social-icons {
+    height: 40px;
+}
+.social-icons > a > img{
+    filter: invert(30%);
+    width: 40px;
+    margin: 5px;
+}
+.create-login, .create-register, .create-product, .create-category {
+    padding: 16px 24px;
+    border: 1px solid #d9d9d9;
+    /*width: 20rem;*/;
+}
+#login, #password, #confirm-password, #name, #surname, #patronymic, #phone, #email, #product_name,
+#product_price, #brand, #weight, #material, #product_status, #category_name, #size, #color, #product_code{
+    height: 40px;
+    margin: auto 1rem;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+textarea, select {
+    border: 1px solid #d9d9d9;
+}
+input:focus, button:focus {
+    outline: none;
+}
+.form-title {
+    font-size: 24px;
+}
+.login-btn, .register-btn, .product-create-btn, .category-create-btn {
+    height: 45px;
+}
+.more-btn{
+    height: 35px;
+    background: #cfcfcf;
+    color: #636363;
+}
+.login-btn:active, .register-btn:active, .product-create-btn:active, .category-create-btn:active {
+    background: #444444;
+    color: #e4e4e4;
+}
+.admin-search, .admin-nav-list  {
+    filter: invert(100%);
+}
+.admin-nav-list {
+    width: 1.5rem;
+}
+.admin-mark {
+    position: fixed;
+    color: #979490;
+}
+.dropdown-menu.columns-4 {
+    min-width: 700px;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: normal;
+}
+@media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+}
+.bread {
+    background: none !important;
+}
+.bread > li > a:hover{
+    border-bottom: 1px solid #16af16 !important;
+}
+.title {
+    font-family: "Proxima Nova Rg", serif;
+}
+.catalog-product-img > img {
+    width: 100%;
+    height: 17rem;
+    object-fit: scale-down;
+}
+.liked-icon > i{
+    position: absolute;
+}
+.liked-icon:active{
+    color: #16af16 !important;
+}
+.size-choose {
+    height: 30px;
+    border: 1px solid #d9d9d9;
+}
+.size-choose:focus{
+    outline: none;
+}
+.card-btn {
+    height: 3rem;
+    width: 22rem;
+    border: none;
+    background: #16af16;
+    color: white;
+}
+.card-btn-disabled {
+    height: 3rem;
+    width: 22rem;
+    border: none;
+    background: #a0a0a0;
+    color: white;
+}
+.card-btn:active {
+    background: #5f5f5f;
+    outline: none;
+}
+.liked-btn {
+    height: 3rem;
+    width: 4rem;
+    border: none;
+}
+.liked-btn:active{
+    background: #5f5f5f;
+    color: white;
+}
+.product-img {
+    max-height: 37rem;
+}
+.edit-btn, .del-btn {
+    background: none;
+    color: #717171;
+}
+
+.del-btn:hover{
+    color: #c30023;
+}
+
+.invalid-feedback{
+    display: block !important;
+}
+
+bg-light-2 {
+    background-color: #ccc;
+}
+
+.step {
+    background-color: #fff;
+    border: solid var(--black) 1px;
+    padding-bottom: 2rem;
+}
+
+.step-number {
+    background-color: var(--green);
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.order-btn {
+    height: 100%;
+    padding: 0.5rem, 0;
+}
+
+.order-btn span {
+    font-size: smaller;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+.counter::-webkit-outer-spin-button,
+.counter::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.counter[type=number] {
+    -moz-appearance: textfield;
+    text-align: center;
+    width: 3rem;
+}
+
+
+
+.form_radio_btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+.form_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+}
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    background: #196a30;
+}
+
+.container-2 > * {
+    font-size: 14px;
+}
+.payment-round {
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    border: 3px solid #111111;
+    width: 150px;
+    height: 150px;
+    /*background-position: 0px -141px;*/
+}
+.payment-item {
+    content: '₽';
+    width: 130px;
+    height: 130px;
+    z-index: 12;
+    position: relative;
+}
+.no-marks {
+    list-style: none;
+}
